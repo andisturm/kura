@@ -362,7 +362,7 @@ public class AssetDataUi extends Composite {
     private enum ChannelStatus {
 
         UNKNOWN("Unknown", "fa-times text-danger", "text-danger"),
-        SUCCESS("Success", "fa-check text-success", "text-success"),
+        SUCCESS("Success: BFT validated read", "fa-check text-success", "text-success"),
         FAILURE("Failure - click for details", "fa-times text-danger", "text-danger cell-clickable"),
         DIRTY("Modified", "fa-pencil", ""),
         DISABLED("Disabled", "", "");
